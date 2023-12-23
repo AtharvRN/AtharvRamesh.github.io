@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Personal Webpage"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -11,28 +11,8 @@ redirect_from:
 
 
     
-======
-I am Senior (4th year) Undergrad in the [Department of Electrical Engineering](https://ee.iith.ac.in) at the [Indian Institute of Technology Hyderabad](https://iith.ac.in/)
+I am Senior (4th year) Undergrad in the [Department of Electrical Engineering](https://ee.iith.ac.in) at the [Indian Institute of Technology Hyderabad](https://iith.ac.in/). My interests lie in Deep Learning, especially Computer Vision. I am also exploring Self-Supervised Learning, Speaker Recognition. Apart from Deep Learning, I am also quite interested in Robotics, Embedding Systems, Computer Architecture, Hardware and Signal Processing.
 
-
-Getting started
-======
-
-
-Site-wide configuration
-------
-
-
-Create content & metadata
-------
-
-
-**Markdown generator**
-
-
-
-How to edit your site's GitHub repository
-------
 
 
 
