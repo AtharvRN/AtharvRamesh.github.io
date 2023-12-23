@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Atharv Ramesh Webpage"
 title_separator          : "-"
 name                     : &name "Atharv Ramesh"
-description              : &description "Senior EE Undergrad at Indian Institute of Technology Hyderabad"
+description              : &description "Senior Electrical Engineering Undergrad at Indian Institute of Technology Hyderabad"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "AtharvRamesh.github.io/" # the subpath of your site, e.g. "/blog"
 repository               : "AtharvRN/AtharvRamesh.github.io"
@@ -103,13 +103,13 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/atharv-ramesh/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
