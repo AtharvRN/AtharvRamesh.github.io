@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Atharv Ramesh Webpage"
+title                    : "Personal Website"
 title_separator          : "-"
 name                     : &name "Atharv Ramesh"
 description              : &description "Senior Electrical Engineering Undergraduate at the IIT Hyderabad"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Atharv"
+  name             : "Atharv Ramesh Nair"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "India"
