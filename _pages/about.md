@@ -11,8 +11,8 @@ redirect_from:
 
 
     
-I am Senior (4th year) Undergrad in the [Department of Electrical Engineering](https://ee.iith.ac.in) at the [Indian Institute of Technology Hyderabad](https://iith.ac.in/). My interests primarily lie in Deep Learning, especially Computer Vision. I am also interested in Speaker Recognition and Natural Language Processing. Apart from Deep Learning, I am also quite interested in Robotics, Embedding Systems, Computer Architecture, Hardware and Signal Processing. I am currently working on Cosmic Ray Detection in Astronomical Images under the guidance of Prof. [Sumohana Channapayana](https://people.iith.ac.in/sumohana/). 
-
+I am an Associate AI Engineer in [Netradyne](https://www.netradyne.com/). I started working June 2024. I work on Device Analytics team. We work on ADAS, Driver Monitoring and much more. I work closely with Python/C++, Makefiles, Cross-Compilers. I am currently working on a project which involves using the Qualcomm's (fastcv)[https://www.qualcomm.com/developer/software/qualcomm-fastcv-sdk] library on their [Hexagon DSP](https://en.wikipedia.org/wiki/Qualcomm_Hexagon). I am fascinated with the corporate world and am learning a lot of the processes involved. 
+I graduated with a Bachelor in Technology from the [Department of Electrical Engineering](https://ee.iith.ac.in) at the [Indian Institute of Technology Hyderabad](https://iith.ac.in/). I am a deep learning enthusiast and have worked on variety of projects including Computer Vision (All domains - biomedical,astronomical etc.), NLP, Gen AI, RAG, Speaker Verification. Please reach out to me if you want to collaborate
 
 
 
