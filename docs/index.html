@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Atharv Nair | Machine Learning Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio and academic homepage of Atharv Nair, Machine Learning engineer focused on ML infrastructure, perception, and applied research."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="assets/profile.png" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="#top">Atharv Nair</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="blog/">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section id="top" class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Machine Learning Engineer · Applied Researcher</p>
+          <h1>Hi, I’m Atharv Nair.</h1>
+          <p class="lead">
+            I build resilient machine learning systems—from low-latency edge
+            perception pipelines to large scale training and evaluation
+            workflows. My work spans ML infrastructure, vision, speech, and
+            language technologies that ship on real hardware.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="Atharv_Ramesh_Resume.pdf" target="_blank" rel="noopener"
+              >Download Resume</a
+            >
+            <a class="button ghost" href="#projects">View Projects</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="profile-frame">
+            <img src="assets/profile.png" alt="Portrait of Atharv Nair" />
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <div class="section-heading">
+          <h2>About</h2>
+          <p>
+            Currently a Machine Learning Engineer on the Device Analytics team
+            at Netradyne, I focus on edge deployment of deep learning models for
+            advanced driver assistance, system profiling, and multi-model
+            scheduling. I am pursuing an M.S. in Machine Learning and Data
+            Science at UC San Diego (ECE, 2025–2027) and previously earned my
+            B.Tech. in Electrical Engineering from IIT Hyderabad.
+          </p>
+        </div>
+        <div class="about-grid">
+          <div>
+            <h3>Research & Technical Interests</h3>
+            <ul class="chips">
+              <li>Edge ML &amp; Optimization</li>
+              <li>Robotics Perception</li>
+              <li>Multimodal LLM Tooling</li>
+              <li>Speech &amp; Audio ML</li>
+              <li>ML Ops &amp; Infrastructure</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Skills Snapshot</h3>
+            <ul class="bullet-list">
+              <li>
+                <span>Frameworks</span> PyTorch, TensorFlow, Transformers, ONNX,
+                TensorRT, SNPE, OpenCV, ROS2
+              </li>
+              <li>
+                <span>Languages</span> Python, C/C++, MATLAB, SQL, Bash,
+                HTML/CSS/JS
+              </li>
+              <li>
+                <span>Infrastructure</span> Docker, Kubernetes, AWS EC2/S3,
+                vLLM, LangChain, LlamaIndex, CI/CD
+              </li>
+              <li>
+                <span>Data &amp; Analytics</span> NumPy, Pandas, SciPy,
+                Matplotlib, PostgreSQL, MongoDB, Streamlit
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-heading">
+          <h2>Experience</h2>
+          <p>
+            Building ML stack upgrades from silicon-aware optimizations to
+            high-leverage research prototypes that transition into production.
+          </p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <header>
+              <h3>Netradyne</h3>
+              <div class="meta">
+                <span class="role">Software Engineer — Machine Learning</span>
+                <span class="date">Jun 2024 – Aug 2025 · Bengaluru, India</span>
+              </div>
+            </header>
+            <ul>
+              <li>
+                Re-architected the edge video pipeline with async scheduling and
+                priority queues, eliminating frame drops and boosting throughput
+                by 17% without sacrificing accuracy.
+              </li>
+              <li>
+                Delivered ADAS perception models on Qualcomm SNPE and NVIDIA
+                TensorRT for passenger safety, package detection, and active
+                fatigue monitoring.
+              </li>
+              <li>
+                Consolidated multi-service components into a multithreaded
+                daemon, reducing RAM usage by 3% and streamlining cross-compiles
+                and CI delivery.
+              </li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <header>
+              <h3>Silicon Labs</h3>
+              <div class="meta">
+                <span class="role">Software Engineer Intern</span>
+                <span class="date">May 2023 – Jul 2023 · Hyderabad, India</span>
+              </div>
+            </header>
+            <ul>
+              <li>
+                Implemented Minstrel adaptive rate control on RS9116 Wi-Fi,
+                improving throughput vs. range in field evaluations.
+              </li>
+              <li>
+                Collaborated across embedded C firmware, Linux drivers, and
+                IEEE 802.11 stack debugging for low-power IoT platforms.
+              </li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <header>
+              <h3>Alog Tech</h3>
+              <div class="meta">
+                <span class="role">Robotics Software Developer (Full-time)</span>
+                <span class="date">May 2023 – Jul 2023 · Hyderabad, India</span>
+              </div>
+            </header>
+            <ul>
+              <li>
+                Delivered autonomous navigation via ROS Navigation Stack with
+                full pipeline—path planning, custom motion control, and watchdog
+                services.
+              </li>
+              <li>
+                Built motor interfaces and YOLO-driven perception for robust
+                obstacle detection in indoor mobile robotics.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <h2>Education</h2>
+        </div>
+        <div class="education">
+          <article>
+            <h3>University of California San Diego</h3>
+            <p class="meta">
+              M.S. in Machine Learning &amp; Data Science (ECE) · 2025 – 2027
+              (expected)
+            </p>
+            <p class="details">
+              Coursework: Reinforcement Learning, Statistical Learning,
+              Probability &amp; Statistics for Data Science.
+            </p>
+          </article>
+          <article>
+            <h3>Indian Institute of Technology Hyderabad</h3>
+            <p class="meta">
+              B.Tech. in Electrical Engineering · GPA 3.91/4 · 2020 – 2024
+            </p>
+            <p class="details">
+              Coursework: Machine Learning, Deep Learning, NLP, Computer Vision,
+              Matrix Theory, Information Theory, Algorithms, Convex Optimization.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <h2>Selected Projects</h2>
+          <p>
+            End-to-end systems and research explorations across language,
+            vision, and audio domains. Visit GitHub for additional work.
+          </p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>LLM Test-Time Scaling with Process Reward Models</h3>
+            <p>
+              Fine-tuned DreamPRM-style reward models on Lean4ATP proofs to
+              guide Llama-3.2 inference, boosting success rates with multi-step
+              reasoning. Packaged reproducible Kubernetes workflows on SDSC
+              Nautilus (A100) with NCCL multi-GPU jobs, LoRA fine-tuning, and
+              W&amp;B telemetry.
+            </p>
+            <a href="https://github.com/AtharvRN/refound_finetuning" target="_blank" rel="noopener"
+              >GitHub Repository</a
+            >
+          </article>
+          <article class="project-card">
+            <h3>OCT Analysis with RETFound + Generative Augmentations</h3>
+            <p>
+              Adapted RETFound self-supervised weights for noisy OCT scans,
+              achieving 0.80 AUC. Explored ViT, DINO, SupCon baselines and built
+              Pix2Pix GAN &amp; latent diffusion pipelines to synthesize retinal
+              data for downstream robustness.
+            </p>
+            <a href="https://doi.org/10.3390/bioengineering11121186" target="_blank" rel="noopener"
+              >Publication &amp; Dataset</a
+            >
+          </article>
+          <article class="project-card">
+            <h3>Far-Field Speaker Verification for Mobile Robots</h3>
+            <p>
+              IEEE SP Cup 2024 global winners: optimized ERes2Net on 3D-Speaker
+              with targeted augmentations (RIR, MUSAN, speed perturb). Deployed
+              adaptive s-norm scoring for reliable voice authentication on
+              mobile robotics.
+            </p>
+            <a href="https://github.com/AtharvRN/SP_CUP2024_Speaker_Verification" target="_blank" rel="noopener"
+              >Competition Code</a
+            >
+          </article>
+          <article class="project-card">
+            <h3>Document-Level Text Simplification</h3>
+            <p>
+              Built a plan-to-generate architecture: RoBERTa classifier predicts
+              edit actions that condition a two-stage transformer. Achieved SOTA
+              SARI/D-SARI on R-Wiki-auto, outperforming SIMSUM and BART.
+            </p>
+            <a href="https://github.com/AtharvRN/document_simplification" target="_blank" rel="noopener"
+              >Project Details</a
+            >
+          </article>
+          <article class="project-card">
+            <h3>Cosmic Ray Detection in Astronomical Images</h3>
+            <p>
+              Designed a lightweight TransUNet variant to segment faint streaks
+              in telescope image stacks, improving recall by 2% with fewer
+              parameters than heavier baselines.
+            </p>
+            <a
+              href="https://github.com/AtharvRN/Cosmic_Ray_Detection/tree/main"
+              target="_blank"
+              rel="noopener"
+              >Source Code</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="section-heading">
+          <h2>Publications</h2>
+        </div>
+        <article class="publication-card">
+          <h3>
+            Detection of Disease Features on Retinal OCT Scans Using RETFound
+          </h3>
+          <p>
+            K. Du, <strong>A. R. Nair</strong>, S. Shah, A. Gadari, S. C.
+            Vupparaboina, J.-A. Sahel, S. Jana, J. Chhablani, et al.
+            <em>Bioengineering</em>, 2024.
+          </p>
+          <a
+            href="https://doi.org/10.3390/bioengineering11121186"
+            target="_blank"
+            rel="noopener"
+            >Read the paper</a
+          >
+        </article>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="footer-content">
+        <h2>Let’s connect</h2>
+        <p>
+          Reach out for collaborations on ML infrastructure, applied research,
+          or robotics systems.
+        </p>
+        <ul class="contact-links">
+          <li>
+            <a href="mailto:atharv.ramesh2003@gmail.com">Email</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/Atharv-Ramesh" target="_blank" rel="noopener"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/AtharvRN" target="_blank" rel="noopener">GitHub</a>
+          </li>
+        </ul>
+        <p class="footnote">
+          &copy; <span id="year"></span> Atharv Nair. Crafted with care in San
+          Diego &amp; Hyderabad.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const nav = document.querySelector(".nav");
+      const toggle = document.querySelector(".nav-toggle");
+      const links = document.querySelector(".nav-links");
+
+      toggle?.addEventListener("click", () => {
+        links.classList.toggle("is-open");
+        nav.classList.toggle("is-open");
+      });
+
+      document.querySelectorAll(".nav-links a").forEach((anchor) => {
+        anchor.addEventListener("click", () => {
+          links.classList.remove("is-open");
+          nav.classList.remove("is-open");
+        });
+      });
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

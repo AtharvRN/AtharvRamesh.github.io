@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Notes &mdash; Atharv Nair</title>
+    <meta
+      name="description"
+      content="Engineering notes and short write-ups from Atharv Nair on applied machine learning and infrastructure."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/png" href="../assets/profile.png" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="../">Atharv Nair</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="../#about">About</a></li>
+          <li><a href="../#experience">Experience</a></li>
+          <li><a href="../#projects">Projects</a></li>
+          <li><a href="../#publications">Publications</a></li>
+          <li><a href="../blog/">Blog</a></li>
+          <li><a href="../#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="section">
+        <div class="section-heading">
+          <h1>Notes &amp; Field Logs</h1>
+          <p>
+            Short, practical write-ups on the experiments, tools, and decisions
+            that shape my work. Expect applied ML, infrastructure, robotics, and
+            anything else I am actively building.
+          </p>
+        </div>
+      </section>
+    </header>
+
+    <main class="section">
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Operationalizing Process Reward Models</h3>
+          <p>
+            A behind-the-scenes look at fine-tuning DreamPRM variants for
+            theorem proving workflows: labeling strategies, score calibration,
+            and the trade-offs that made it production-ready for long context
+            reasoning.
+          </p>
+          <p class="footnote">Sep 2024 · 6 minute read</p>
+          <a href="process-reward-models.html">Read the post</a>
+        </article>
+        <article class="project-card">
+          <h3>Edge ML Pipelines That Don’t Drop Frames</h3>
+          <p>
+            Notes from rebuilding a multi-model ADAS stack with asynchronous
+            schedulers, priority queues, and profiling hooks to guarantee
+            latency budgets on automotive hardware.
+          </p>
+          <p class="footnote">Jul 2024 · 4 minute read</p>
+          <a href="edge-ml-pipeline.html">Read the post</a>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <h2>Let’s connect</h2>
+        <p>
+          Reach out for collaborations on ML infrastructure, applied research,
+          or robotics systems.
+        </p>
+        <ul class="contact-links">
+          <li><a href="mailto:atharv.ramesh2003@gmail.com">Email</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/Atharv-Ramesh" target="_blank" rel="noopener"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/AtharvRN" target="_blank" rel="noopener">GitHub</a>
+          </li>
+        </ul>
+        <p class="footnote">
+          &copy; <span id="year"></span> Atharv Nair. Crafted with care in San
+          Diego &amp; Hyderabad.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const nav = document.querySelector(".nav");
+      const toggle = document.querySelector(".nav-toggle");
+      const links = document.querySelector(".nav-links");
+
+      toggle?.addEventListener("click", () => {
+        links.classList.toggle("is-open");
+        nav.classList.toggle("is-open");
+      });
+
+      document.querySelectorAll(".nav-links a").forEach((anchor) => {
+        anchor.addEventListener("click", () => {
+          links.classList.remove("is-open");
+          nav.classList.remove("is-open");
+        });
+      });
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
