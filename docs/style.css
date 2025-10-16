@@ -144,6 +144,22 @@ span.highlight {
   background: linear-gradient(135deg, #b45309 0%, #f59e0b 100%);
 }
 
+.gradient-ssl {
+  background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+}
+
+.gradient-comm {
+  background: linear-gradient(135deg, #f97316 0%, #fb7185 100%);
+}
+
+.gradient-vision {
+  background: linear-gradient(135deg, #14b8a6 0%, #86efac 100%);
+}
+
+.gradient-robotics {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+}
+
 .notes-list {
   list-style: none;
   padding: 0;
