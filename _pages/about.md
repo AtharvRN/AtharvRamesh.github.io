@@ -1,19 +1,34 @@
 ---
 permalink: /
-title: "Introduction"
-excerpt: "About me"
+title: "Atharv Ramesh Nair"
+excerpt: "Associate AI Engineer at Netradyne"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+<div class="hero-block">
+  <p class="hero__eyebrow">Associate AI Engineer | Netradyne</p>
+  <p class="hero__lead">I build device-side ML for ADAS and driver monitoring in the Device Analytics team. I joined <a href="https://www.netradyne.com/">Netradyne</a> in June 2024 and work across Python/C++, Makefiles, and cross-compilers. Currently exploring <a href="https://www.qualcomm.com/developer/software/qualcomm-fastcv-sdk">Qualcomm FastCV</a> on the <a href="https://en.wikipedia.org/wiki/Qualcomm_Hexagon">Hexagon DSP</a>.</p>
+  <div class="hero__actions">
+    <a class="btn" href="{{ '/portfolio/' | relative_url }}">Projects</a>
+    <a class="btn btn--inverse" href="{{ '/publications/' | relative_url }}">Publications</a>
+  </div>
+</div>
 
-
-    
-I am an Associate AI Engineer in [Netradyne](https://www.netradyne.com/). I started working June 2024. I work on Device Analytics team. We work on ADAS, Driver Monitoring and much more. I work closely with Python/C++, Makefiles, Cross-Compilers. I am currently working on a project which involves using the Qualcomm's (fastcv)[https://www.qualcomm.com/developer/software/qualcomm-fastcv-sdk] library on their [Hexagon DSP](https://en.wikipedia.org/wiki/Qualcomm_Hexagon). I am fascinated with the corporate world and am learning a lot of the processes involved. 
-I graduated with a Bachelor in Technology from the [Department of Electrical Engineering](https://ee.iith.ac.in) at the [Indian Institute of Technology Hyderabad](https://iith.ac.in/). I am a deep learning enthusiast and have worked on variety of projects including Computer Vision (All domains - biomedical,astronomical etc.), NLP, Gen AI, RAG, Speaker Verification. Please reach out to me if you want to collaborate
-
-
-
-
+<div class="section-grid">
+  <div class="info-card">
+    <h2>Focus areas</h2>
+    <ul>
+      <li>Computer vision across biomedical, astronomical, and edge domains</li>
+      <li>NLP, GenAI, and RAG systems</li>
+      <li>Speaker verification and on-device optimization</li>
+    </ul>
+  </div>
+  <div class="info-card">
+    <h2>Background</h2>
+    <p>I earned my Bachelor of Technology in Electrical Engineering from the <a href="https://ee.iith.ac.in">Department of Electrical Engineering</a> at the <a href="https://iith.ac.in/">Indian Institute of Technology Hyderabad</a>.</p>
+    <p>I enjoy collaborating on ambitious ML projects. If you'd like to work together, feel free to reach out.</p>
+  </div>
+</div>

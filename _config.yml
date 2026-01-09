@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Personal Website"
+title                    : "Atharv Ramesh Nair"
 title_separator          : "-"
 name                     : &name "Atharv Ramesh"
 description              : &description "Associate AI Engineer at Netradyne"
