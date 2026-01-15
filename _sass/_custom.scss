@@ -201,6 +201,7 @@ a:hover {
   display: grid;
   gap: 1.5rem;
   margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .info-card {
@@ -213,6 +214,23 @@ a:hover {
 
 .info-card h2 {
   margin-top: 0;
+}
+
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.pill-list li {
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(214, 90, 49, 0.08);
+  font-size: 0.95rem;
 }
 
 .archive__item {
