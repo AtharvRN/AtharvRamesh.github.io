@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Atharv Ramesh · Projects</title>
+  <meta name="description" content="Projects by Atharv Ramesh." />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="shortcut icon" type="image/png" href="assets/profile.png" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="intro">
+      <div>
+        <h1>Selected Projects</h1>
+        <p class="contact"><a href="index.html">Back to home</a></p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="project-list">
+          <article class="project">
+            <h3>Document-Level Text Simplification</h3>
+            <p class="meta">Two-stage plan-guided transformer</p>
+            <p class="links"><a href="https://github.com/AtharvRN/document_simplification">GitHub</a></p>
+            <p>
+              Designed a plan→generate pipeline in which a RoBERTa planner labels each sentence with copy/rephrase/split/delete operations using surrounding context, then feeds the tags into SIMSUM’s summarizer→simplifier stack. Training on R‑Wiki-Auto (12k docs) with curriculum scheduling, the model delivered SARI 43.56 / D-SARI 38.52 and held up on the out-of-domain PLABA medical corpus.
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>Exploring Self-Supervised Learning with DINO</h3>
+            <p class="meta">Self-distillation · Representation learning</p>
+            <p class="links"><a href="https://github.com/AtharvRN/EE6380_Project">GitHub</a></p>
+            <p>
+              Reimplemented DINO’s student–teacher self-distillation with momentum encoders, multi-crop augmentations, and moving-average diagnostics on Imagenette. The distilled backbone exceeded supervised ResNet/Vision Transformer baselines by 12–20% top-1 accuracy, and its frozen features transfer cleanly to CIFAR-10/100 classification and Pascal VOC segmentation.
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>Deep Learning for OFDM Channel Estimation</h3>
+            <p class="meta">Wireless communication · Model compression</p>
+            <p class="links"><a href="https://github.com/AtharvRN/Deep-Learning-based-Channel-Estimation--OFDM">GitHub</a></p>
+            <p>
+              Modeled a 64-subcarrier, 16-QAM OFDM link end-to-end—pilot insertion ((3+3j) comb pattern), channel simulation, and demapper—and benchmarked classical LS/MMSE estimators against a skip-connected CNN that outputs 64×2 complex taps. The learned model closes much of the MMSE gap at low SNR while significantly outperforming LS, all within a lightweight PyTorch training loop.
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>Comprehensive Review of Image Denoising</h3>
+            <p class="meta">Classical + deep pipelines</p>
+            <p class="links"><a href="https://github.com/AtharvRN/image_denoising_project">GitHub</a></p>
+            <p>
+              Benchmarked wavelet, NLM, BM3D, and WNNM pipelines against autoencoder, DnCNN, RIDNet, CBDNet, and PRIDNet implementations on BSD400/CBSD68 (noise15 &amp; noise25). Architectural tweaks—LeakyReLU activations, dropout, and cascaded enhancement attention—pushed RIDNet to SSIM 0.937 / 0.828, highlighting when classical priors still win and where deep residual learning shines.
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>PID Control of Drone with Overhead Vision</h3>
+            <p class="meta">Robotics club · Real-time control</p>
+            <p class="links"><a href="https://github.com/AtharvRN/drone_control">GitHub</a></p>
+            <p>
+              Authored a Python SDK around the Pluto drone’s UDP protocol (ARM/BOXARM/SET_ATTITUDE) with interchangeable Xbox/keyboard teleop, then layered calibrated ArUco pose estimation for overhead feedback. Cropping the detection ROI to 300×300 shrank compute by 95.7%, letting PID loops run fast enough to hold course during Inter IIT drone swarm trials.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
