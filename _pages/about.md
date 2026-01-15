@@ -14,16 +14,18 @@ redirect_from:
   <div class="hero__actions">
     <a class="btn" href="{{ '/publications/' | relative_url }}">Publications</a>
     <a class="btn btn--inverse" href="{{ '/portfolio/' | relative_url }}">Other projects</a>
+    <a class="btn btn--inverse" href="{{ '/blog/' | relative_url }}">Research blog</a>
   </div>
 </div>
 
 <div class="section-grid">
   <div class="info-card">
     <h2>Research interests</h2>
-    <ul>
+    <ul class="pill-list">
       <li>Interpretability and mechanistic interpretability</li>
       <li>Robustness and safety in ML systems</li>
       <li>RL, LLMs, and post-training</li>
+      <li>Evaluation and alignment for high-stakes models</li>
     </ul>
   </div>
   <div class="info-card">
@@ -33,6 +35,11 @@ redirect_from:
       <li>SVIP CUP 2024: OCT biomarker detection; 2nd runner up at ICIP 2024.</li>
     </ul>
     <p>Additional projects are listed on the <a href="{{ '/portfolio/' | relative_url }}">Projects</a> page.</p>
+  </div>
+  <div class="info-card">
+    <h2>Writing & outreach</h2>
+    <p>I am preparing a series of posts on mechanistic interpretability, evaluation, and research tooling.</p>
+    <p>Visit the <a href="{{ '/blog/' | relative_url }}">Research blog</a> for notes, explainers, and literature reviews.</p>
   </div>
 </div>
 
