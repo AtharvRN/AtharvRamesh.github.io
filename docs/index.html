@@ -31,6 +31,11 @@
         </p>
         <p class="links">
           <a href="Atharv_Ramesh_Resume.pdf">Resume</a>
+          <a href="publications.html">Publications</a>
+          <a href="research.html">Research</a>
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="blog.html">Blog</a>
           <a href="https://github.com/AtharvRN">GitHub</a>
           <a href="https://www.linkedin.com/in/Atharv-Ramesh">LinkedIn</a>
           <a href="blog.html">Blog</a>
@@ -61,136 +66,26 @@
         </ul>
       </section>
 
-      <section id="publications" class="section">
-        <h2>Publications</h2>
-        <div class="entry">
-          <p><strong>Detection of Disease Features on Retinal OCT Scans Using RETFound.</strong></p>
-          <p>K. Du, <strong>A. R. Nair</strong>, S. Shah, A. Gadari, S. C. Vupparaboina, J.-A. Sahel, et al.</p>
-          <p><em>Bioengineering</em>, 2024. <a href="https://doi.org/10.3390/bioengineering11121186">DOI</a></p>
+      <section class="section summary-grid">
+        <div class="summary-card">
+          <h2>Publications</h2>
+          <p>Peer-reviewed work on medical imaging and model evaluation.</p>
+          <p><a href="publications.html">View publications →</a></p>
         </div>
-      </section>
-
-      <section id="experience" class="section">
-        <h2>Work Experience</h2>
-        <div class="entry">
-          <h3>Netradyne</h3>
-          <p class="meta">Software Engineer — Machine Learning · Jun 2024 – Aug 2025 · Bengaluru, India</p>
-          <ul>
-            <li>Re-architected the edge video stack with async scheduling and priority queues, delivering a 17% throughput gain with zero frame drops.</li>
-            <li>Deployed passenger safety, unsecured package, and drowsiness models across Qualcomm SNPE and NVIDIA TensorRT platforms.</li>
-            <li>Merged multi-service components into a multithreaded daemon, shaving 3% RAM and hardening cross-compilation and CI for fleet updates.</li>
-          </ul>
+        <div class="summary-card">
+          <h2>Research</h2>
+          <p>Mechanistic interpretability, LLM reward models, and safety-driven ML.</p>
+          <p><a href="research.html">View research →</a></p>
         </div>
-        <div class="entry">
-          <h3>Silicon Labs</h3>
-          <p class="meta">Software Engineer Intern · May 2023 – Jul 2023 · Hyderabad, India</p>
-          <ul>
-            <li>Implemented Minstrel adaptive rate control on RS9116 Wi-Fi modules, improving rate-vs-range behavior in live field tests.</li>
-            <li>Worked across embedded C, Linux drivers, and IEEE 802.11 stack diagnostics for low-power IoT deployments.</li>
-          </ul>
+        <div class="summary-card">
+          <h2>Projects</h2>
+          <p>Applied ML systems, robotics, and research engineering builds.</p>
+          <p><a href="projects.html">View projects →</a></p>
         </div>
-        <div class="entry">
-          <h3>Alog Tech</h3>
-          <p class="meta">Robotics Software Developer · May 2023 – Jul 2023 · Hyderabad, India</p>
-          <ul>
-            <li>Built a fully autonomous indoor navigation stack with ROS Navigation, custom planners, and watchdog services.</li>
-            <li>Integrated motor control interfaces and YOLO-based perception for reliable obstacle avoidance on mobile robots.</li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="research" class="section">
-        <h2>Research Experience</h2>
-        <article class="feature">
-          <figure>
-            <img src="images/dreamprm.png" alt="DreamPRM architecture diagram">
-            <p class="caption">Image credit: DreamPRM authors (<a href="https://arxiv.org/pdf/2505.20241.pdf">source</a>)</p>
-          </figure>
-          <div>
-            <h3>Test time Scaling for LLMs using Process Reward Models</h3>
-            <p><a href="https://github.com/AtharvRN/refound_finetuning">GitHub [WIP]</a></p>
-            <p>
-              Building DreamPRM-style process reward models for Lean4 theorem proving: curate token-level feedback with symbolic checkers, LoRA-adapt Llama‑3.2 3B, and deploy inference-time reranking inside a Nautilus multi-GPU Kubernetes stack (PVC-mounted datasets, NCCL jobs, vLLM serving). The PRM gate boosts proof success by 9% while cutting search tokens ~17%, and the repo now packages reproducible manifests for future Lean PRM experiments.
-            </p>
-          </div>
-        </article>
-
-        <article class="feature">
-          <figure>
-            <img src="images/retfound.png" alt="RETFound OCT project visual">
-          </figure>
-          <div>
-            <h3>OCT Analysis with RETFound &amp; Generative Augmentations</h3>
-            <p class="meta">Biomedical vision · Generative modeling</p>
-            <p><a href="https://doi.org/10.3390/bioengineering11121186">Publication</a> · <a href="https://github.com/AtharvRN/refound_finetuning">Code</a></p>
-            <p>
-              Extended RETFound’s masked-autoencoder foundation (pretrained on 1.6M CFP/OCT frames) to 1.8k noisy B-scans using AutoMorph, axial cropping, and 224px SSL augmentations. Fine-tuned task heads for multi-label biomarker detection (Acc 0.77 / AUC 0.80) and spun up Pix2Pix + latent diffusion pipelines that synthesize realistic OCT volumes, improving recall on rare pathologies and underpinning our Bioengineering 2024 paper.
-            </p>
-          </div>
-        </article>
-
-        <article class="feature">
-          <figure>
-            <img src="images/sp_cup.png" alt="Speaker verification competition presentation cover">
-          </figure>
-          <div>
-            <h3>Far-Field Speaker Verification on Mobile Robots</h3>
-            <p class="meta">IEEE SP Cup 2024 winners</p>
-            <p><a href="https://github.com/AtharvRN/SP_CUP2024_Speaker_Verification">GitHub</a></p>
-            <p>
-              Shipped the ICASSP ’24 winning RoboVox pipeline by upgrading ERes2Net with attentive local/global fusion, 80-d log-mel features, and AAM-Softmax training. Blended VoxCeleb, CN-Celeb, and far-field 3D-Speaker corpora plus RIRS, MUSAN, and speed perturbations; scoring uses cosine similarity with adaptive s-norm to hit minDCF 0.67 / EER 8.93 across the mobile robot’s multi-channel microphone array.
-            </p>
-          </div>
-        </article>
-      </section>
-
-      <section id="projects" class="section">
-        <h2>Selected Projects</h2>
-        <div class="project-list">
-          <article class="project">
-            <h3>Document-Level Text Simplification</h3>
-            <p class="meta">Two-stage plan-guided transformer</p>
-            <p class="links"><a href="https://github.com/AtharvRN/document_simplification">GitHub</a></p>
-            <p>
-              Designed a plan→generate pipeline in which a RoBERTa planner labels each sentence with copy/rephrase/split/delete operations using surrounding context, then feeds the tags into SIMSUM’s summarizer→simplifier stack. Training on R‑Wiki-Auto (12k docs) with curriculum scheduling, the model delivered SARI 43.56 / D-SARI 38.52 and held up on the out-of-domain PLABA medical corpus.
-            </p>
-          </article>
-
-          <article class="project">
-            <h3>Exploring Self-Supervised Learning with DINO</h3>
-            <p class="meta">Self-distillation · Representation learning</p>
-            <p class="links"><a href="https://github.com/AtharvRN/EE6380_Project">GitHub</a></p>
-            <p>
-              Reimplemented DINO’s student–teacher self-distillation with momentum encoders, multi-crop augmentations, and moving-average diagnostics on Imagenette. The distilled backbone exceeded supervised ResNet/Vision Transformer baselines by 12–20% top-1 accuracy, and its frozen features transfer cleanly to CIFAR-10/100 classification and Pascal VOC segmentation.
-            </p>
-          </article>
-
-          <article class="project">
-            <h3>Deep Learning for OFDM Channel Estimation</h3>
-            <p class="meta">Wireless communication · Model compression</p>
-            <p class="links"><a href="https://github.com/AtharvRN/Deep-Learning-based-Channel-Estimation--OFDM">GitHub</a></p>
-            <p>
-              Modeled a 64-subcarrier, 16-QAM OFDM link end-to-end—pilot insertion ((3+3j) comb pattern), channel simulation, and demapper—and benchmarked classical LS/MMSE estimators against a skip-connected CNN that outputs 64×2 complex taps. The learned model closes much of the MMSE gap at low SNR while significantly outperforming LS, all within a lightweight PyTorch training loop.
-            </p>
-          </article>
-
-          <article class="project">
-            <h3>Comprehensive Review of Image Denoising</h3>
-            <p class="meta">Classical + deep pipelines</p>
-            <p class="links"><a href="https://github.com/AtharvRN/image_denoising_project">GitHub</a></p>
-            <p>
-              Benchmarked wavelet, NLM, BM3D, and WNNM pipelines against autoencoder, DnCNN, RIDNet, CBDNet, and PRIDNet implementations on BSD400/CBSD68 (noise15 &amp; noise25). Architectural tweaks—LeakyReLU activations, dropout, and cascaded enhancement attention—pushed RIDNet to SSIM 0.937 / 0.828, highlighting when classical priors still win and where deep residual learning shines.
-            </p>
-          </article>
-
-          <article class="project">
-            <h3>PID Control of Drone with Overhead Vision</h3>
-            <p class="meta">Robotics club · Real-time control</p>
-            <p class="links"><a href="https://github.com/AtharvRN/drone_control">GitHub</a></p>
-            <p>
-              Authored a Python SDK around the Pluto drone’s UDP protocol (ARM/BOXARM/SET_ATTITUDE) with interchangeable Xbox/keyboard teleop, then layered calibrated ArUco pose estimation for overhead feedback. Cropping the detection ROI to 300×300 shrank compute by 95.7%, letting PID loops run fast enough to hold course during Inter IIT drone swarm trials.
-            </p>
-          </article>
+        <div class="summary-card">
+          <h2>Experience</h2>
+          <p>Industry experience across ADAS, robotics, and embedded ML.</p>
+          <p><a href="experience.html">View experience →</a></p>
         </div>
       </section>
     </main>
