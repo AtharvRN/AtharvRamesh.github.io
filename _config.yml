@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Atharv Ramesh Nair"
+title                    : "Atharv Nair"
 title_separator          : "-"
-name                     : &name "Atharv Ramesh"
-description              : &description "Associate AI Engineer at Netradyne"
+name                     : &name "Atharv Nair"
+description              : &description "Associate AI Engineer focused on interpretable, robust ML systems."
 url                      : https://atharvrn.github.io/AtharvRamesh.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "atharvrn.github.io/AtharvRamesh.github.io/"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Atharv Ramesh Nair"
+  name             : "Atharv Nair"
   avatar           : "profile.png"
-  bio              : "Deep Learning Enthusiat"
+  bio              : "Associate AI Engineer focused on interpretability and robustness."
   location         : "India"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

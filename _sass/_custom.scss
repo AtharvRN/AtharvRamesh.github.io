@@ -169,6 +169,116 @@ a:hover {
   background-color: var(--accent);
 }
 
+.intro-shell {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 3rem;
+}
+
+.intro-layout {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
+}
+
+.intro-panel {
+  position: relative;
+  padding: 2.3rem;
+  border-radius: 26px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.intro-panel--accent {
+  border-color: rgba(31, 35, 40, 0.08);
+  background: linear-gradient(140deg, rgba(214, 90, 49, 0.18), rgba(42, 122, 116, 0.16));
+}
+
+.intro-panel--accent::after {
+  content: "";
+  position: absolute;
+  top: -90px;
+  right: -90px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(214, 90, 49, 0.35), transparent 65%);
+  opacity: 0.7;
+}
+
+.intro__eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.intro__name {
+  margin: 0 0 0.75rem;
+  font-size: clamp(2.6rem, 5vw, 3.8rem);
+  line-height: 1.05;
+  color: var(--ink);
+}
+
+.intro__lead {
+  margin: 0 0 1.5rem;
+  font-size: 1.15rem;
+  color: var(--ink);
+}
+
+.intro__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.intro__subtitle {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.intro__list {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.intro__list li {
+  padding: 0.85rem 1rem;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+}
+
+.intro__note {
+  margin: 0;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.resume-card {
+  padding: 1.5rem;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.resume-frame {
+  width: 100%;
+  min-height: 70vh;
+  margin-top: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #fff;
+}
+
 .hero-block {
   padding: 1.75rem;
   border-radius: 22px;
@@ -316,9 +426,25 @@ a:hover {
   }
 }
 
+@media (max-width: 700px) {
+  .intro-shell {
+    padding: 1rem 1rem 2.5rem;
+  }
+
+  .intro-panel {
+    padding: 1.75rem;
+  }
+}
+
 @media (min-width: 768px) {
   .section-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 900px) {
+  .intro-layout {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
   }
 }
 
