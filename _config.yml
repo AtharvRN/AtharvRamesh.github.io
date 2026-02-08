@@ -81,7 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Atharv Nair"
-  avatar           : "profile.png"
+  # No avatar for now (keeps sidebar clean).
+  avatar           :
   bio              : "UC San Diego M.S. student. Interests: LLM post-training, AI safety, mechanistic interpretability, medical imaging."
   location         : "India"
   employer         :
