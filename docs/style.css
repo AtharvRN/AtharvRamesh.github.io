@@ -25,7 +25,7 @@ a:focus {
 body {
   margin: 0;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", serif;
-  background: #f7f7f5;
+  background: linear-gradient(180deg, #fbfbf8 0%, #f6f6f1 100%);
   color: var(--text);
   line-height: 1.65;
 }
@@ -37,7 +37,8 @@ img {
 
 .profile-photo {
   border-radius: 12px;
-  border: 1px solid #d7d7d2;
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 .container {
@@ -63,13 +64,6 @@ h1 {
   font-size: 2.4rem;
   font-weight: 600;
   color: var(--accent);
-}
-
-.tagline {
-  margin: 0 0 0.75rem;
-  font-size: 1rem;
-  color: var(--muted);
-  font-style: italic;
 }
 
 .tagline {
@@ -108,11 +102,11 @@ h1 {
 }
 
 .toc {
-  margin: 1.75rem 0 2.75rem;
+  margin: 0 0 2.75rem;
   padding: 0.85rem 1rem;
   border-radius: 6px;
   border: 1px solid var(--border);
-  background: #fbfbfa;
+  background: linear-gradient(90deg, rgba(31, 75, 136, 0.08), rgba(184, 92, 56, 0.08));
   font-size: 0.95rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--muted);
@@ -234,10 +228,34 @@ main {
 
 .project {
   border: 1px solid var(--border);
+<<<<<<< ours
   border-left: 4px solid var(--accent);
   border-radius: 8px;
   padding: 1.1rem 1.25rem;
   background: #fbfbfa;
+=======
+  border-left: 4px solid var(--accent-strong);
+  border-radius: 8px;
+  padding: 1.1rem 1.25rem;
+  background: #fbfbfa;
+}
+
+.summary-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.summary-card {
+  padding: 1.2rem 1.3rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: linear-gradient(145deg, rgba(31, 75, 136, 0.08), rgba(184, 92, 56, 0.08));
+}
+
+.summary-card h2 {
+  margin-top: 0;
+>>>>>>> theirs
 }
 
 .project h3 {
