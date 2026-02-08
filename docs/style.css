@@ -267,6 +267,14 @@ main {
   margin: 0.65rem 0 0.75rem;
 }
 
+.project ul {
+  margin: 0.75rem 0 0 1.2rem;
+}
+
+.project li {
+  margin-bottom: 0.55rem;
+}
+
 footer {
   margin-top: 3rem;
   font-size: 0.85rem;
