@@ -228,12 +228,6 @@ main {
 
 .project {
   border: 1px solid var(--border);
-<<<<<<< ours
-  border-left: 4px solid var(--accent);
-  border-radius: 8px;
-  padding: 1.1rem 1.25rem;
-  background: #fbfbfa;
-=======
   border-left: 4px solid var(--accent-strong);
   border-radius: 8px;
   padding: 1.1rem 1.25rem;
@@ -255,7 +249,6 @@ main {
 
 .summary-card h2 {
   margin-top: 0;
->>>>>>> theirs
 }
 
 .project h3 {
