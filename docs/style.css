@@ -95,49 +95,6 @@ h1 {
   color: #999999;
 }
 
-.contact-chips {
-  margin: 0 0 1.1rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  padding: 0;
-}
-
-.contact-chips .chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.38rem 0.7rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: linear-gradient(135deg, rgba(31, 75, 136, 0.09), rgba(184, 92, 56, 0.09));
-  color: var(--text);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.95rem;
-  line-height: 1.2;
-}
-
-.contact-chips .chip:hover,
-.contact-chips .chip:focus {
-  text-decoration: none;
-  border-color: rgba(31, 75, 136, 0.35);
-  background: linear-gradient(135deg, rgba(31, 75, 136, 0.13), rgba(184, 92, 56, 0.13));
-}
-
-.contact-chips .chip-icon {
-  width: 22px;
-  height: 22px;
-  display: grid;
-  place-items: center;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid rgba(215, 215, 210, 0.9);
-  color: var(--accent);
-  font-weight: 700;
-  font-size: 0.8rem;
-  letter-spacing: -0.02em;
-}
-
 .intro figure {
   margin: 0;
   text-align: center;
