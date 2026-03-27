@@ -23,6 +23,7 @@ redirect_from:
         <a class="btn" href="{{ '/files/Resume_Research.pdf' | relative_url }}">Download resume</a>
         <a class="btn btn--inverse" href="{{ '/projects/' | relative_url }}">Projects</a>
         <a class="btn btn--inverse" href="https://www.linkedin.com/in/atharv-ramesh/">LinkedIn</a>
+        <a class="btn btn--inverse" href="https://x.com/AtharvRamesh1">X</a>
         <a class="btn btn--inverse" href="https://github.com/AtharvRN">GitHub</a>
       </div>
     </section>
