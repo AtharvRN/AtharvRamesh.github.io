@@ -1,87 +1,131 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Atharv Ramesh Nair</title>
-  <meta name="description"
-    content="UC San Diego ECE M.S. student working on interpretability for medical imaging, AI safety, LLM post-training, and efficient inference." />
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta name="description" content="UC San Diego ECE M.S. student working on interpretability for medical imaging, AI safety, RL, LLM post-training, and efficient inference." />
   <link rel="icon" href="assets/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="home.css?v=1" />
 </head>
-
 <body>
-  <div class="container">
-    <header class="intro">
-      <div>
-        <h1>Atharv Ramesh Nair</h1>
-        <p>
-          Graduate student in ECE at <a href="https://ece.ucsd.edu/">UC San Diego</a> and researcher in the <a
-            href="https://lilywenglab.github.io/">Trustworthy Machine Learning Lab</a> (advised by <a
-            href="https://lilywenglab.github.io/">Prof. Lily Weng</a>). Working on interpretability for deep learning models in
-          medical imaging; interested in AI safety, reinforcement learning, LLM post-training, and efficient inference. If you
-          want to reach out to collaborate or discuss anything, please reach out via <a
-            href="mailto:a3nair@ucsd.edu">a3nair@ucsd.edu</a>, <a href="https://x.com/AtharvRamesh1" target="_blank"
-            rel="noopener">X</a>, or <a href="https://www.linkedin.com/in/atharv-ramesh" target="_blank"
-            rel="noopener">LinkedIn</a>, or <a href="https://github.com/AtharvRN" target="_blank"
-            rel="noopener">GitHub</a>. My academic resume is <a href="Resume_Research.pdf?v=20260326">here</a>.
-        </p>
-        <p>
-          Previously an ML Engineer at <a href="https://www.netradyne.com/">Netradyne</a>; B.Tech. in Electrical Engineering
-          from <a href="https://iith.ac.in/">IIT Hyderabad</a> (<a href="https://ee.iith.ac.in/">EE Dept.</a>). I am actively
-          looking for MLE/Research internships in Summer 2026 and beyond.
-        </p>
+  <nav class="top-nav">
+    <div class="nav-container">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#publications">Publications</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#experience">Experience</a>
+      <a class="nav-link" href="#education">Education</a>
+      <a class="nav-link" href="blog.html">Blog</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" aria-pressed="false">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+      <div class="profile-image">
+        <img src="assets/profile.png" alt="Atharv Ramesh Nair" class="profile-pic" />
       </div>
-    </header>
+      <h1 class="name">Atharv Ramesh Nair</h1>
+      <p class="tagline">M.S. Student at UC San Diego ECE</p>
+      <div class="sidebar-links">
+        <p class="location"><i class="fas fa-map-marker-alt"></i> La Jolla, CA</p>
+        <a href="mailto:a3nair@ucsd.edu" class="sidebar-link"><i class="fas fa-envelope"></i> UCSD Email</a>
+        <a href="https://github.com/AtharvRN" class="sidebar-link" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/atharv-ramesh" class="sidebar-link" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://x.com/AtharvRamesh1" class="sidebar-link" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> X</a>
+        <a href="Resume_Research.pdf?v=20260326" class="sidebar-link"><i class="fas fa-file-pdf"></i> Resume</a>
+      </div>
+    </aside>
 
-    <main>
-      <section id="experience" class="section">
-        <h2>Experience</h2>
-        <div class="entry">
-          <h3>Researcher · <a href="https://lilywenglab.github.io/">Trustworthy Machine Learning Lab</a>, <a href="https://ece.ucsd.edu/">UC San Diego</a></h3>
-          <p class="meta">Advised by Prof. Lily Weng · Interpretability for medical imaging</p>
-        </div>
-        <div class="entry">
-          <h3>Software Engineer (Machine Learning) · <a href="https://www.netradyne.com/">Netradyne</a></h3>
-          <p class="meta">Jun 2024 – Aug 2025 · Bengaluru, India</p>
+    <main class="main-content">
+      <section id="about" class="content-section">
+        <h2 class="section-title">About Me</h2>
+        <div class="content-text">
+          <p>
+            I am a graduate student in ECE at <a href="https://ece.ucsd.edu/" target="_blank" rel="noopener">UC San Diego</a> and a researcher in the
+            <a href="https://lilywenglab.github.io/" target="_blank" rel="noopener">Trustworthy Machine Learning Lab</a>, advised by
+            <a href="https://lilywenglab.github.io/" target="_blank" rel="noopener">Prof. Lily Weng</a>.
+          </p>
+          <p>
+            My current work focuses on interpretability for deep learning models in medical imaging. More broadly, I am interested in AI safety,
+            reinforcement learning, LLM post-training, and efficient inference.
+          </p>
+          <p>
+            Previously, I worked as an ML Engineer at <a href="https://www.netradyne.com/" target="_blank" rel="noopener">Netradyne</a>. I earned my B.Tech.
+            in Electrical Engineering from <a href="https://iith.ac.in/" target="_blank" rel="noopener">IIT Hyderabad</a>
+            (<a href="https://ee.iith.ac.in/" target="_blank" rel="noopener">EE Dept.</a>). I am actively seeking MLE/Research internships in Summer 2026 and beyond.
+          </p>
         </div>
       </section>
 
-      <section id="education" class="section">
-        <h2>Education</h2>
-        <div class="entry">
-          <h3>M.S. Machine Learning and Data Science (ECE) · <a href="https://ece.ucsd.edu/">UC San Diego</a></h3>
-          <p class="meta">Sep 2025 – Present</p>
-        </div>
-        <div class="entry">
-          <h3>Bachelor of Technology in <a href="https://ee.iith.ac.in/">Electrical Engineering</a> · <a href="https://iith.ac.in/">IIT Hyderabad</a></h3>
-          <p class="meta">2020 – 2024</p>
-        </div>
+      <section id="publications" class="content-section">
+        <h2 class="section-title">Publications</h2>
+        <article class="card">
+          <h3>Detection of Disease Features on Retinal OCT Scans Using RETFound.</h3>
+          <p class="meta">K. Du, <strong>A. R. Nair</strong>, S. Shah, A. Gadari, S. C. Vupparaboina, J.-A. Sahel, et al.</p>
+          <p class="meta"><em>Bioengineering</em>, 2024</p>
+          <p><a href="https://doi.org/10.3390/bioengineering11121186" target="_blank" rel="noopener">[Paper]</a></p>
+        </article>
       </section>
 
-      <section id="publications" class="section">
-        <h2>Publications</h2>
-        <div class="entry">
-          <p><strong>Detection of Disease Features on Retinal OCT Scans Using RETFound.</strong></p>
-          <p>K. Du, <strong>A. R. Nair</strong>, S. Shah, A. Gadari, S. C. Vupparaboina, J.-A. Sahel, et al.</p>
-          <p><em>Bioengineering</em>, 2024. <a href="https://doi.org/10.3390/bioengineering11121186">DOI</a></p>
-        </div>
+      <section id="projects" class="content-section">
+        <h2 class="section-title">Selected Projects</h2>
+        <article class="card">
+          <h3>StealthRL</h3>
+          <p class="meta">Reinforcement learning, AI safety</p>
+          <p>Built an RL-driven paraphrasing policy with semantic and fluency constraints to reduce detector scores while preserving meaning.</p>
+        </article>
+        <article class="card">
+          <h3>Prompt-Length Optimization via Reinforcement Learning</h3>
+          <p class="meta">LLMs, post-training</p>
+          <p>Formulated prompt suffix optimization as an RL task and achieved significant token compression with stable likelihood.</p>
+        </article>
+        <article class="card">
+          <h3>Concept Bottleneck Models for Chest X-ray</h3>
+          <p class="meta">Interpretability, medical imaging</p>
+          <p>Exploring VLM-assisted concept detection and CBM variants for transparent chest X-ray interpretation.</p>
+        </article>
+        <p><a href="projects.html">View full project list -></a></p>
       </section>
 
-      <section id="projects" class="section">
-        <h2>Projects</h2>
-        <p>Selected builds in RL, LLM post-training, and interpretable ML.</p>
-        <p><a href="projects.html">View projects →</a></p>
+      <section id="experience" class="content-section">
+        <h2 class="section-title">Experience</h2>
+        <article class="card">
+          <h3>Researcher, Trustworthy Machine Learning Lab, UC San Diego</h3>
+          <p class="meta">2025 - Present</p>
+        </article>
+        <article class="card">
+          <h3>Software Engineer (Machine Learning), Netradyne</h3>
+          <p class="meta">Jun 2024 - Aug 2025, Bengaluru, India</p>
+        </article>
       </section>
+
+      <section id="education" class="content-section">
+        <h2 class="section-title">Education</h2>
+        <article class="card">
+          <h3>M.S. in Machine Learning and Data Science (ECE), UC San Diego</h3>
+          <p class="meta">Sep 2025 - Present</p>
+        </article>
+        <article class="card">
+          <h3>B.Tech. in Electrical Engineering, IIT Hyderabad</h3>
+          <p class="meta">2020 - 2024</p>
+        </article>
+      </section>
+
+      <footer class="page-footer">
+        <p>&copy; 2026 Atharv Ramesh Nair</p>
+      </footer>
     </main>
-
-    <footer>
-      <p>Inspired by <a href="https://github.com/chengxuxin/chengxuxin.github.io">chengxuxin</a> · Original template by <a href="https://jonbarron.info">Jon Barron</a></p>
-    </footer>
   </div>
+  <script src="home.js?v=1"></script>
 </body>
-
 </html>
