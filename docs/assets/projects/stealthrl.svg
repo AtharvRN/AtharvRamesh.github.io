@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">StealthRL Project Visual</title>
+  <desc id="d">Adversarial paraphrasing under detector pressure with AUROC and TPR reduction.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1f3c"/>
+      <stop offset="100%" stop-color="#50307f"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9ad6ff"/>
+      <stop offset="100%" stop-color="#7c9dff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" rx="28"/>
+  <g opacity="0.18" stroke="#ffffff" fill="none">
+    <circle cx="1020" cy="120" r="110"/>
+    <circle cx="1020" cy="120" r="150"/>
+    <circle cx="1020" cy="120" r="190"/>
+  </g>
+  <path d="M245 190 L380 130 L515 190 L515 365 C515 432 458 500 380 545 C302 500 245 432 245 365 Z" fill="url(#shield)" opacity="0.92"/>
+  <g stroke="#ffffff" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M315 292 C352 258, 408 258, 445 292"/>
+    <path d="M316 346 C350 378, 410 378, 444 346"/>
+  </g>
+  <g>
+    <rect x="640" y="228" width="430" height="34" rx="17" fill="#ff8f8f" opacity="0.95"/>
+    <rect x="640" y="288" width="290" height="34" rx="17" fill="#ffc07b" opacity="0.95"/>
+    <rect x="640" y="348" width="190" height="34" rx="17" fill="#ffe7a6" opacity="0.95"/>
+    <rect x="640" y="408" width="120" height="34" rx="17" fill="#e7ffb1" opacity="0.95"/>
+  </g>
+  <text x="96" y="88" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700">StealthRL</text>
+  <text x="96" y="134" fill="#e8dcff" font-family="Inter, Arial, sans-serif" font-size="26">RL paraphrase attack lowering detector confidence</text>
+  <text x="642" y="194" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="24">Detector Metrics Drop</text>
+  <text x="96" y="618" fill="#efeaff" font-family="Inter, Arial, sans-serif" font-size="25">AUROC: 0.79 -&gt; 0.43 | Attack success: 97.6%</text>
+</svg>

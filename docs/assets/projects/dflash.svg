@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">DFlash Project Visual</title>
+  <desc id="d">Speculative decoding acceleration with throughput trend lines and accepted length bars.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2a4f"/>
+      <stop offset="100%" stop-color="#1f8ca6"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f5f7ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" rx="28"/>
+  <g opacity="0.18" fill="#fff">
+    <circle cx="1080" cy="110" r="130"/>
+    <circle cx="970" cy="560" r="190"/>
+  </g>
+  <g stroke="#d7ecff" stroke-width="2" opacity="0.35">
+    <path d="M90 518H1120"/>
+    <path d="M90 470H1120"/>
+    <path d="M90 422H1120"/>
+    <path d="M90 374H1120"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="9">
+    <path d="M120 500 C260 460, 360 430, 500 386 C610 352, 720 330, 840 288 C920 260, 1010 248, 1090 235" stroke="#ffdca8"/>
+    <path d="M120 540 C260 520, 380 504, 510 476 C620 452, 740 430, 865 402 C948 385, 1015 372, 1090 360" stroke="url(#line)"/>
+  </g>
+  <g>
+    <rect x="130" y="250" width="46" height="250" fill="#b5e4ff" rx="8"/>
+    <rect x="196" y="224" width="46" height="276" fill="#d6f2ff" rx="8"/>
+    <rect x="262" y="198" width="46" height="302" fill="#f6fbff" rx="8"/>
+    <rect x="328" y="168" width="46" height="332" fill="#ffe4b8" rx="8"/>
+  </g>
+  <text x="96" y="88" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700">DFlash</text>
+  <text x="96" y="134" fill="#dff6ff" font-family="Inter, Arial, sans-serif" font-size="26">Speculative decoding with higher accepted length and throughput</text>
+  <text x="96" y="618" fill="#e8f9ff" font-family="Inter, Arial, sans-serif" font-size="25">AIME25 best-case: 129.25 -&gt; 146.60 tok/s</text>
+</svg>

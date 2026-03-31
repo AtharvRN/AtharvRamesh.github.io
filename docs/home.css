@@ -199,6 +199,21 @@ a:hover {
   margin: 0 0 0.8rem;
 }
 
+.project-spotlight {
+  display: grid;
+  grid-template-columns: minmax(0, 230px) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.project-visual {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
 .card h3 {
   margin: 0 0 0.35rem;
   color: var(--heading);
@@ -232,5 +247,8 @@ a:hover {
   .profile-pic {
     max-width: 220px;
   }
-}
 
+  .project-spotlight {
+    grid-template-columns: 1fr;
+  }
+}

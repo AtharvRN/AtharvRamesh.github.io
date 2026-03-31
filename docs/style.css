@@ -231,12 +231,27 @@ main {
   gap: 1.75rem;
 }
 
+.project-list-featured {
+  gap: 1.25rem;
+}
+
 .project {
   border: 1px solid var(--border);
   border-left: 4px solid var(--accent-strong);
   border-radius: 8px;
   padding: 1.1rem 1.25rem;
   background: #fbfbfa;
+}
+
+.project-cover {
+  margin: 0 0 0.9rem;
+}
+
+.project-cover img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
 }
 
 .summary-grid {

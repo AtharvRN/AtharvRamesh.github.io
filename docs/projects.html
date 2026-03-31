@@ -24,111 +24,57 @@
     <main>
       <section class="section">
         <h2>Recent Projects</h2>
-        <div class="project-list">
+        <div class="project-list project-list-featured">
           <article class="project">
+            <figure class="project-cover">
+              <img src="assets/projects/dflash.svg" alt="DFlash project visual" />
+            </figure>
+            <h3>DFlash: Accelerating LLM Inference with Speculative Decoding</h3>
+            <p class="meta">Speculative decoding · Efficient inference · HF Transformers + SGLang</p>
+            <ul>
+              <li>
+                Extended DFlash implementations in both Hugging Face Transformers and SGLang with multi-candidate
+                verification and benchmark tooling.
+              </li>
+              <li>
+                On AIME25, improved best-case throughput from 129.25 to 146.60 tok/s (+13.4%), and improved mean accepted
+                length from 6.43 to 7.58.
+              </li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <figure class="project-cover">
+              <img src="assets/projects/stealthrl.svg" alt="StealthRL project visual" />
+            </figure>
             <h3>StealthRL</h3>
-            <p class="meta">Reinforcement learning · AI safety</p>
+            <p class="meta">AI safety · Reinforcement learning · ACL SRW under review</p>
             <p class="links"><a href="https://github.com/suraj-ranganath/StealthRL/tree/main">GitHub</a></p>
             <ul>
               <li>
-                Prototyped an RL-driven paraphrasing policy (GRPO + LoRA) tuned against detector feedback while preserving
-                meaning and fluency.
+                Built an RL paraphrasing attack (GRPO + LoRA on Qwen3-4B) to reduce AI-text detector confidence while
+                preserving meaning and fluency.
               </li>
               <li>
-                Added semantic/fluency constraints plus an ESL-fairness penalty to reduce regressions across writing
-                styles.
-              </li>
-              <li>
-                Reduced Fast-DetectGPT score from 0.587 to 0.458 while maintaining semantic similarity of 0.944 at the best
-                checkpoint (exploratory).
+                Reduced mean TPR@1%FPR to 0.024 and dropped AUROC from 0.79 to 0.43, with 97.6% attack success.
               </li>
             </ul>
           </article>
 
           <article class="project">
-            <h3>Prompt-Length Optimization via Reinforcement Learning</h3>
-            <p class="meta">LLMs · Post-training</p>
-            <p class="links"><a href="https://github.com/ACMCMC/prompt-length-optimization">GitHub</a></p>
+            <figure class="project-cover">
+              <img src="assets/projects/safety-spec.svg" alt="Safety-aware speculative decoding project visual" />
+            </figure>
+            <h3>Safety-Aware Speculative Decoding</h3>
+            <p class="meta">Inference safety · Decoding-time defenses · Training-free safeguards</p>
             <ul>
               <li>
-                Formulated discrete prompt optimization as an RL problem (AdvBench, Pythia-70M) and trained with GRPO-style
-                updates to shorten prompt suffixes while preserving likelihood.
+                Designed a Composite Risk Score from draft-target disagreement and integrated prompt/perplexity safeguards
+                with 4-bit inference constraints.
               </li>
               <li>
-                Achieved 16 → 9 tokens (43.8% compression) with per-token log-likelihood improving from -1.64 to -1.12 on
-                representative runs.
-              </li>
-              <li>
-                Ran ablations on entropy/credit assignment and compared against REINFORCE and PPO baselines.
-              </li>
-            </ul>
-          </article>
-
-          <article class="project">
-            <h3>Concept Bottleneck Models for Chest X-ray</h3>
-            <p class="meta">Interpretability · Medical imaging</p>
-            <ul>
-              <li>
-                Exploring chest X-ray interpretability using VLMs (CheXAgent/MedGemma), concept detectors (CheX-DETR), and
-                CBM layers.
-              </li>
-              <li>
-                Comparing CBM variants including LF-CBM (BiomedCLIP) and VLG-CBM (CheX), and evaluating concept
-                presence/accuracy via VLM/LLM queries.
-              </li>
-              <li>
-                Visualizing learned concepts and failure cases with Grad-CAM and saliency-style analyses.
-              </li>
-            </ul>
-          </article>
-
-          <article class="project">
-            <h3>NYC Public Transit</h3>
-            <p class="meta">Course project · Data analysis</p>
-            <p class="links"><a href="https://github.com/AtharvRN/NYC_Public_Transit">GitHub</a></p>
-            <ul>
-              <li>
-                Small course project analyzing NYC public transit data, with an emphasis on clean data processing and
-                communicating results clearly.
-              </li>
-              <li>
-                Built reproducible analysis notebooks/scripts and produced plots/visuals to summarize findings.
-              </li>
-            </ul>
-          </article>
-
-          <article class="project">
-            <h3>Probability &amp; Statistics Project Website</h3>
-            <p class="meta">Web · Simulations</p>
-            <ul>
-              <li>
-                Built a lightweight website to present a probability and statistics project with clean writeups and
-                visuals.
-              </li>
-              <li>
-                Focused on readable explanations and simple interactive elements to communicate the analysis.
-              </li>
-            </ul>
-          </article>
-
-          <article class="project">
-            <h3>LLM Test-Time Scaling using Process Reward Models</h3>
-            <p class="meta">LLMs · Post-training</p>
-            <ul>
-              <li>
-                Built an LLM test-time reasoning prototype for Lean4 tasks using chain-of-thought style rollouts plus
-                PRM-style scoring and reranking (exploratory).
-              </li>
-              <li>
-                Implemented high-throughput inference with vLLM/FlashAttention, KV-cache batching, and evaluation harnesses
-                to measure success under fixed compute.
-              </li>
-              <li>
-                Launched Kubernetes jobs on shared A100-80GB clusters: fp16 inference, memory-capped dataloaders,
-                PVC-mounted datasets, and containerized PyTorch/PEFT (LoRA) training.
-              </li>
-              <li>
-                Automated checkpoints and Weights &amp; Biases logging for repeatable runs.
+                Reduced attack success from 12% to 4% while lowering over-refusal compared with vanilla speculative
+                decoding.
               </li>
             </ul>
           </article>

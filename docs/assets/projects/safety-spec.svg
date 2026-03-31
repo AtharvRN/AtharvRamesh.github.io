@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Safety-Aware Speculative Decoding Visual</title>
+  <desc id="d">Risk-aware speculative decoding with disagreement signals and reduced unsafe outputs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12352f"/>
+      <stop offset="100%" stop-color="#1e5d7a"/>
+    </linearGradient>
+    <linearGradient id="risk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff9a7a"/>
+      <stop offset="100%" stop-color="#ffe9a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)" rx="28"/>
+  <g opacity="0.18" fill="#fff">
+    <rect x="820" y="60" width="320" height="200" rx="24"/>
+    <rect x="850" y="290" width="290" height="160" rx="24"/>
+  </g>
+  <g>
+    <rect x="100" y="225" width="350" height="230" rx="16" fill="#e6f5ff" opacity="0.9"/>
+    <rect x="470" y="225" width="350" height="230" rx="16" fill="#fff1d7" opacity="0.9"/>
+    <path d="M450 342 H470" stroke="#dcecff" stroke-width="12" stroke-linecap="round"/>
+    <path d="M820 342 H840" stroke="#ffe7c6" stroke-width="12" stroke-linecap="round"/>
+    <text x="126" y="268" fill="#163d5d" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Draft Model</text>
+    <text x="495" y="268" fill="#6e4c12" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Target Model</text>
+    <path d="M130 340 C200 305, 265 375, 340 340 C372 323, 398 306, 420 322" stroke="#2a7bb2" stroke-width="8" fill="none"/>
+    <path d="M500 340 C570 315, 635 370, 710 336 C742 321, 768 302, 790 318" stroke="#c47d24" stroke-width="8" fill="none"/>
+  </g>
+  <g>
+    <rect x="890" y="518" width="220" height="30" rx="15" fill="#ffb7a7"/>
+    <rect x="890" y="560" width="72" height="30" rx="15" fill="#b8f2c6"/>
+    <text x="900" y="510" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22">Attack Success</text>
+    <text x="971" y="542" fill="#1f2c3c" font-family="Inter, Arial, sans-serif" font-size="20" text-anchor="end">12%</text>
+    <text x="1076" y="542" fill="#1f2c3c" font-family="Inter, Arial, sans-serif" font-size="20">4%</text>
+  </g>
+  <text x="96" y="88" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700">Safety-Aware Speculative Decoding</text>
+  <text x="96" y="134" fill="#dbfbef" font-family="Inter, Arial, sans-serif" font-size="26">Risk score from draft-target disagreement + prompt/perplexity safeguards</text>
+  <rect x="96" y="568" width="420" height="44" rx="22" fill="url(#risk)"/>
+  <text x="306" y="597" fill="#3f2812" font-family="Inter, Arial, sans-serif" font-size="22" text-anchor="middle">Training-free safety gains with minimal over-refusal</text>
+</svg>
