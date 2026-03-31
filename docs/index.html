@@ -84,7 +84,7 @@
       <section id="projects" class="content-section">
         <h2 class="section-title">Selected Projects</h2>
         <article class="card project-spotlight">
-          <img src="assets/projects/dflash.svg" alt="DFlash project visual" class="project-visual" />
+          <img src="assets/projects/dflash-paper-arch.png" alt="DFlash architecture figure from project report" class="project-visual" />
           <div>
             <h3>DFlash: Accelerating LLM Inference with Speculative Decoding</h3>
             <p class="meta">Efficient inference · Speculative decoding · HF Transformers + SGLang</p>
@@ -92,10 +92,11 @@
               Extended DFlash with multi-candidate verification and end-to-end benchmarking. On AIME25, best-case throughput improved from
               129.25 to 146.60 tok/s (+13.4%), with mean accepted length improving from 6.43 to 7.58.
             </p>
+            <p><a href="https://github.com/AtharvRN/dflash" target="_blank" rel="noopener">GitHub</a></p>
           </div>
         </article>
         <article class="card project-spotlight">
-          <img src="assets/projects/stealthrl.svg" alt="StealthRL project visual" class="project-visual" />
+          <img src="assets/projects/stealthrl-pipeline.png" alt="StealthRL pipeline figure" class="project-visual" />
           <div>
             <h3>StealthRL</h3>
             <p class="meta">AI safety · Reinforcement learning · ACL SRW under review</p>
@@ -103,11 +104,14 @@
               Built an RL paraphrase attack pipeline (GRPO + LoRA on Qwen3-4B) to evade LLM-text detectors while preserving semantics and fluency.
               Achieved 97.6% attack success, reducing mean TPR@1%FPR to 0.024 and AUROC from 0.79 to 0.43.
             </p>
-            <p><a href="https://github.com/suraj-ranganath/StealthRL/tree/main" target="_blank" rel="noopener">Code</a></p>
+            <p>
+              <a href="https://github.com/suraj-ranganath/StealthRL" target="_blank" rel="noopener">GitHub</a> ·
+              <a href="https://arxiv.org/abs/2602.08934" target="_blank" rel="noopener">arXiv</a>
+            </p>
           </div>
         </article>
         <article class="card project-spotlight">
-          <img src="assets/projects/safety-spec.svg" alt="Safety-aware speculative decoding project visual" class="project-visual" />
+          <img src="assets/projects/safety-asr-comparison.png" alt="Safety-aware speculative decoding attack success comparison" class="project-visual" />
           <div>
             <h3>Safety-Aware Speculative Decoding</h3>
             <p class="meta">Inference safety · Speculative decoding · Robustness</p>
@@ -115,6 +119,7 @@
               Designed a Composite Risk Score using draft-target disagreement, then added prompt/perplexity safeguards and 4-bit inference checks.
               Reduced jailbreak attack success from 12% to 4% while preserving helpfulness better than vanilla SSD.
             </p>
+            <p><a href="https://github.com/codeFafnir/safety-Aware-speculative-decoding-strategies" target="_blank" rel="noopener">GitHub</a></p>
           </div>
         </article>
         <p><a href="projects.html">View full project list -></a></p>
