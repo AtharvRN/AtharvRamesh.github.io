@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Atharv Nair"
 title_separator          : "-"
 name                     : &name "Atharv Nair"
-description              : &description "UC San Diego M.S. student working on interpretable ML, AI safety, LLM post-training, and medical imaging."
+description              : &description "UC San Diego graduate student working on agentic systems for interpretability, medical image interpretability, AI safety and robustness, and LLM inference and serving."
 url                      : https://atharvrn.github.io/AtharvRamesh.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "atharvrn.github.io/AtharvRamesh.github.io/"
@@ -83,7 +83,7 @@ author:
   name             : "Atharv Nair"
   # No avatar for now (keeps sidebar clean).
   avatar           :
-  bio              : "UC San Diego M.S. student. Interests: LLM post-training, AI safety, mechanistic interpretability, medical imaging."
+  bio              : "UC San Diego graduate student. Interests: agentic systems for interpretability, medical image interpretability, AI safety and robustness, and LLM inference and serving."
   location         : "India"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
