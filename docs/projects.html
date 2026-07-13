@@ -23,202 +23,209 @@
 
     <main>
       <section class="section">
-        <h2>Recent Projects</h2>
+        <h2>Featured Projects</h2>
         <div class="project-list project-list-featured">
           <article class="project">
-            <figure class="project-cover">
-              <img src="assets/projects/dflash-paper-throughput.png" alt="DFlash throughput figure from report" />
-            </figure>
-            <h3>DFlash: Accelerating LLM Inference with Speculative Decoding</h3>
-            <p class="meta">Speculative decoding · Efficient inference · HF Transformers + SGLang</p>
-            <p class="links"><a href="https://github.com/AtharvRN/dflash">GitHub</a></p>
-            <ul>
-              <li>
-                Extended DFlash implementations in both Hugging Face Transformers and SGLang with multi-candidate
-                verification and benchmark tooling.
-              </li>
-              <li>
-                On AIME25, improved best-case throughput from 129.25 to 146.60 tok/s (+13.4%), and improved mean accepted
-                length from 6.43 to 7.58.
-              </li>
-            </ul>
+          <figure class="project-cover">
+          <img src="assets/projects/dflash-paper-throughput.png" alt="DFlash throughput figure from report" />
+          </figure>
+          <h3>DFlash: Accelerating LLM Inference with Speculative Decoding</h3>
+          <p class="meta">Speculative decoding · Efficient inference · HF Transformers + SGLang</p>
+          <p class="links"><a href="https://github.com/AtharvRN/dflash">GitHub</a></p>
+          <ul>
+          <li>
+          Extended DFlash implementations in both Hugging Face Transformers and SGLang with multi-candidate
+          verification and benchmark tooling.
+          </li>
+          <li>
+          On AIME25, improved best-case throughput from 129.25 to 146.60 tok/s (+13.4%), and improved mean accepted
+          length from 6.43 to 7.58.
+          </li>
+          </ul>
           </article>
 
           <article class="project">
-            <figure class="project-cover">
-              <img src="assets/projects/stealthrl-pipeline.png" alt="StealthRL pipeline figure from repository" />
-            </figure>
-            <h3>StealthRL</h3>
-            <p class="meta">AI safety · Reinforcement learning · ACL SRW under review</p>
-            <p class="links"><a href="https://github.com/suraj-ranganath/StealthRL">GitHub</a> · <a href="https://arxiv.org/abs/2602.08934">arXiv</a></p>
-            <ul>
-              <li>
-                Built an RL paraphrasing attack (GRPO + LoRA on Qwen3-4B) to reduce AI-text detector confidence while
-                preserving meaning and fluency.
-              </li>
-              <li>
-                Reduced mean TPR@1%FPR to 0.024 and dropped AUROC from 0.79 to 0.43, with 97.6% attack success.
-              </li>
-            </ul>
+          <figure class="project-cover">
+          <img src="assets/projects/stealthrl-pipeline.png" alt="StealthRL pipeline figure from repository" />
+          </figure>
+          <h3>StealthRL</h3>
+          <p class="meta">AI safety · Reinforcement learning · Preprint</p>
+          <p class="links"><a href="https://github.com/suraj-ranganath/StealthRL">GitHub</a> · <a href="https://arxiv.org/abs/2602.08934">arXiv</a></p>
+          <ul>
+          <li>
+          Built an RL paraphrasing attack (GRPO + LoRA on Qwen3-4B) to reduce AI-text detector confidence while
+          preserving meaning and fluency.
+          </li>
+          <li>
+          Reduced mean TPR@1%FPR to 0.024 and dropped AUROC from 0.79 to 0.43, with 97.6% attack success.
+          </li>
+          </ul>
           </article>
 
           <article class="project">
-            <figure class="project-cover">
-              <img src="assets/projects/prompt-length-rl.png" alt="Prompt-length optimization via reinforcement learning figure" />
-            </figure>
-            <h3>Prompt-Length Optimization via Reinforcement Learning</h3>
-            <p class="meta">Prompt optimization · RL post-training · Efficiency</p>
-            <p class="links"><a href="https://github.com/ACMCMC/prompt-length-optimization">GitHub</a></p>
-            <ul>
-              <li>
-                Framed adversarial suffix optimization as a sequential decision process where an RL agent performs
-                token-level add/delete/keep edits before GCG refinement.
-              </li>
-              <li>
-                Benchmarked GRPO, PPO, and REINFORCE, reducing suffix length by 43.8% (16 to 9 tokens) while improving
-                attack log-likelihood from -1.64 to -1.12.
-              </li>
-            </ul>
+          <figure class="project-cover">
+          <img src="assets/projects/prompt-length-rl.png" alt="Prompt-length optimization via reinforcement learning figure" />
+          </figure>
+          <h3>Prompt-Length Optimization via Reinforcement Learning</h3>
+          <p class="meta">Prompt optimization · RL post-training · Efficiency</p>
+          <p class="links"><a href="https://github.com/ACMCMC/prompt-length-optimization">GitHub</a></p>
+          <ul>
+          <li>
+          Framed adversarial suffix optimization as a sequential decision process where an RL agent performs
+          token-level add/delete/keep edits before GCG refinement.
+          </li>
+          <li>
+          Benchmarked GRPO, PPO, and REINFORCE, reducing suffix length by 43.8% (16 to 9 tokens) while improving
+          attack log-likelihood from -1.64 to -1.12.
+          </li>
+          </ul>
           </article>
 
           <article class="project">
-            <figure class="project-cover">
-              <img src="assets/projects/safety-asr-comparison.png" alt="Safety-aware speculative decoding ASR comparison figure" />
-            </figure>
-            <h3>Safety-Aware Speculative Decoding</h3>
-            <p class="meta">Inference safety · Decoding-time defenses · Training-free safeguards</p>
-            <p class="links"><a href="https://github.com/codeFafnir/safety-Aware-speculative-decoding-strategies">GitHub</a></p>
-            <ul>
-              <li>
-                Designed a Composite Risk Score from draft-target disagreement and integrated prompt/perplexity safeguards
-                with 4-bit inference constraints.
-              </li>
-              <li>
-                Reduced attack success from 12% to 4% while lowering over-refusal compared with vanilla speculative
-                decoding.
-              </li>
-            </ul>
+          <figure class="project-cover">
+          <img src="assets/projects/safety-asr-comparison.png" alt="Safety-aware speculative decoding ASR comparison figure" />
+          </figure>
+          <h3>Safety-Aware Speculative Decoding</h3>
+          <p class="meta">Inference safety · Decoding-time defenses · Training-free safeguards</p>
+          <p class="links"><a href="https://github.com/codeFafnir/safety-Aware-speculative-decoding-strategies">GitHub</a></p>
+          <ul>
+          <li>
+          Designed a Composite Risk Score from draft-target disagreement and integrated prompt/perplexity safeguards
+          with 4-bit inference constraints.
+          </li>
+          <li>
+          Reduced attack success from 12% to 4% while lowering over-refusal compared with vanilla speculative
+          decoding.
+          </li>
+          </ul>
           </article>
         </div>
       </section>
 
       <section class="section">
-        <h2>Older Projects</h2>
+        <h2>Medical Imaging &amp; Computer Vision</h2>
         <div class="project-list">
           <article class="project">
-            <h3>OCT Analysis with RETFound &amp; Generative Augmentations</h3>
-            <p class="meta">Biomedical vision · Generative modeling</p>
-            <ul>
-              <li>
-                Co-authored a Bioengineering 2024 paper on RETFound-based retinal OCT feature detection.
-              </li>
-              <li>
-                Fine-tuned a foundation model pretrained on 1.6M OCTs using 1,770 labeled B-scans (SRF/IRF/drusen/PED) and
-                benchmarked single-task vs multi-task vs ResNet-50 baselines.
-              </li>
-              <li>
-                Reached 0.75-0.80 AUC-ROC and explored data augmentation via GAN/Pix2Pix and MONAI latent diffusion models
-                (exploratory).
-              </li>
-            </ul>
+          <h3>OCT Analysis with RETFound &amp; Generative Augmentations</h3>
+          <p class="meta">Biomedical vision · Generative modeling</p>
+          <p class="links"><a href="https://doi.org/10.3390/bioengineering11121186">Paper</a> · <a href="https://github.com/AtharvRN/refound_finetuning">GitHub</a></p>
+          <ul>
+          <li>
+          Co-authored a Bioengineering 2024 paper on RETFound-based retinal OCT feature detection.
+          </li>
+          <li>
+          Fine-tuned a foundation model pretrained on 1.6M OCTs using 1,770 labeled B-scans (SRF/IRF/drusen/PED) and
+          benchmarked single-task vs multi-task vs ResNet-50 baselines.
+          </li>
+          <li>
+          Reached 0.75-0.80 AUC-ROC and explored data augmentation via GAN/Pix2Pix and MONAI latent diffusion models
+          (exploratory).
+          </li>
+          </ul>
           </article>
 
           <article class="project">
-            <h3>Far-Field Speaker Verification on Mobile Robots</h3>
-            <p class="meta">IEEE SP Cup 2024 · Speaker verification</p>
-            <ul>
-              <li>
-                1st place globally at IEEE SP Cup 2024 (ICASSP): adapted ERes2Net with targeted augmentations (RIR, MUSAN,
-                speed) and robot-ready scoring (cosine + adaptive s-norm).
-              </li>
-              <li>
-                Final leaderboard: minDCF 0.67 and EER 8.93.
-              </li>
-            </ul>
+          <h3>Exploring Self-Supervised Learning with DINO</h3>
+          <p class="meta">Self-distillation · Representation learning</p>
+          <p>
+          Reimplemented DINO’s student–teacher self-distillation with momentum encoders, multi-crop augmentations, and moving-average diagnostics on Imagenette. The distilled backbone exceeded supervised ResNet/Vision Transformer baselines by 12–20% top-1 accuracy, and its frozen features transfer cleanly to CIFAR-10/100 classification and Pascal VOC segmentation.
+          </p>
+          <ul>
+          <li>
+          Implemented the student-teacher training loop and stability diagnostics (EMA teacher, centering, temperature
+          schedules).
+          </li>
+          <li>
+          Evaluated representation quality via frozen-backbone transfer to downstream tasks.
+          </li>
+          </ul>
           </article>
 
           <article class="project">
-            <h3>Document-Level Text Simplification</h3>
-            <p class="meta">Two-stage plan-guided transformer</p>
-            <p>
-              Designed a plan→generate pipeline in which a RoBERTa planner labels each sentence with copy/rephrase/split/delete operations using surrounding context, then feeds the tags into SIMSUM’s summarizer→simplifier stack. Training on R‑Wiki-Auto (12k docs) with curriculum scheduling, the model delivered SARI 43.56 / D-SARI 38.52 and held up on the out-of-domain PLABA medical corpus.
-            </p>
-            <ul>
-              <li>
-                Built a sentence-level planning component that predicts edit operations using document context.
-              </li>
-              <li>
-                Conditioned generation on the planned operations to control simplification behavior and reduce unwanted
-                deletions.
-              </li>
-            </ul>
+          <h3>Comprehensive Review of Image Denoising</h3>
+          <p class="meta">Classical + deep pipelines</p>
+          <p>
+          Benchmarked wavelet, NLM, BM3D, and WNNM pipelines against autoencoder, DnCNN, RIDNet, CBDNet, and PRIDNet implementations on BSD400/CBSD68 (noise15 &amp; noise25). Architectural tweaks—LeakyReLU activations, dropout, and cascaded enhancement attention—pushed RIDNet to SSIM 0.937 / 0.828, highlighting when classical priors still win and where deep residual learning shines.
+          </p>
+          <ul>
+          <li>
+          Ran a structured benchmark across classical priors and deep residual/attention models on standard noisy
+          datasets.
+          </li>
+          <li>
+          Documented failure modes and tradeoffs (quality vs compute) for practical denoising pipelines.
+          </li>
+          </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Language, Signal Processing &amp; Systems</h2>
+        <div class="project-list">
+          <article class="project">
+          <h3>Document-Level Text Simplification</h3>
+          <p class="meta">Two-stage plan-guided transformer</p>
+          <p>
+          Designed a plan→generate pipeline in which a RoBERTa planner labels each sentence with copy/rephrase/split/delete operations using surrounding context, then feeds the tags into SIMSUM’s summarizer→simplifier stack. Training on R‑Wiki-Auto (12k docs) with curriculum scheduling, the model delivered SARI 43.56 / D-SARI 38.52 and held up on the out-of-domain PLABA medical corpus.
+          </p>
+          <ul>
+          <li>
+          Built a sentence-level planning component that predicts edit operations using document context.
+          </li>
+          <li>
+          Conditioned generation on the planned operations to control simplification behavior and reduce unwanted
+          deletions.
+          </li>
+          </ul>
           </article>
 
           <article class="project">
-            <h3>Exploring Self-Supervised Learning with DINO</h3>
-            <p class="meta">Self-distillation · Representation learning</p>
-            <p>
-              Reimplemented DINO’s student–teacher self-distillation with momentum encoders, multi-crop augmentations, and moving-average diagnostics on Imagenette. The distilled backbone exceeded supervised ResNet/Vision Transformer baselines by 12–20% top-1 accuracy, and its frozen features transfer cleanly to CIFAR-10/100 classification and Pascal VOC segmentation.
-            </p>
-            <ul>
-              <li>
-                Implemented the student-teacher training loop and stability diagnostics (EMA teacher, centering, temperature
-                schedules).
-              </li>
-              <li>
-                Evaluated representation quality via frozen-backbone transfer to downstream tasks.
-              </li>
-            </ul>
+          <h3>Far-Field Speaker Verification on Mobile Robots</h3>
+          <p class="meta">IEEE SP Cup 2024 · Speaker verification</p>
+          <ul>
+          <li>
+          1st place globally at IEEE SP Cup 2024 (ICASSP): adapted ERes2Net with targeted augmentations (RIR, MUSAN,
+          speed) and robot-ready scoring (cosine + adaptive s-norm).
+          </li>
+          <li>
+          Final leaderboard: minDCF 0.67 and EER 8.93.
+          </li>
+          </ul>
           </article>
 
           <article class="project">
-            <h3>Deep Learning for OFDM Channel Estimation</h3>
-            <p class="meta">Wireless communication · Model compression</p>
-            <p>
-              Modeled a 64-subcarrier, 16-QAM OFDM link end-to-end—pilot insertion ((3+3j) comb pattern), channel simulation, and demapper—and benchmarked classical LS/MMSE estimators against a skip-connected CNN that outputs 64×2 complex taps. The learned model closes much of the MMSE gap at low SNR while significantly outperforming LS, all within a lightweight PyTorch training loop.
-            </p>
-            <ul>
-              <li>
-                Built an end-to-end simulation pipeline to generate training and evaluation data under controlled channel
-                conditions.
-              </li>
-              <li>
-                Compared learned estimators against classical baselines across SNR regimes.
-              </li>
-            </ul>
+          <h3>Deep Learning for OFDM Channel Estimation</h3>
+          <p class="meta">Wireless communication · Model compression</p>
+          <p class="links"><a href="https://github.com/AtharvRN/Deep-Learning-based-Channel-Estimation--OFDM">GitHub</a></p>
+          <p>
+          Modeled a 64-subcarrier, 16-QAM OFDM link end-to-end—pilot insertion ((3+3j) comb pattern), channel simulation, and demapper—and benchmarked classical LS/MMSE estimators against a skip-connected CNN that outputs 64×2 complex taps. The learned model closes much of the MMSE gap at low SNR while significantly outperforming LS, all within a lightweight PyTorch training loop.
+          </p>
+          <ul>
+          <li>
+          Built an end-to-end simulation pipeline to generate training and evaluation data under controlled channel
+          conditions.
+          </li>
+          <li>
+          Compared learned estimators against classical baselines across SNR regimes.
+          </li>
+          </ul>
           </article>
 
           <article class="project">
-            <h3>Comprehensive Review of Image Denoising</h3>
-            <p class="meta">Classical + deep pipelines</p>
-            <p>
-              Benchmarked wavelet, NLM, BM3D, and WNNM pipelines against autoencoder, DnCNN, RIDNet, CBDNet, and PRIDNet implementations on BSD400/CBSD68 (noise15 &amp; noise25). Architectural tweaks—LeakyReLU activations, dropout, and cascaded enhancement attention—pushed RIDNet to SSIM 0.937 / 0.828, highlighting when classical priors still win and where deep residual learning shines.
-            </p>
-            <ul>
-              <li>
-                Ran a structured benchmark across classical priors and deep residual/attention models on standard noisy
-                datasets.
-              </li>
-              <li>
-                Documented failure modes and tradeoffs (quality vs compute) for practical denoising pipelines.
-              </li>
-            </ul>
-          </article>
-
-          <article class="project">
-            <h3>PID Control of Drone with Overhead Vision</h3>
-            <p class="meta">Robotics club · Real-time control</p>
-            <p>
-              Authored a Python SDK around the Pluto drone’s UDP protocol (ARM/BOXARM/SET_ATTITUDE) with interchangeable Xbox/keyboard teleop, then layered calibrated ArUco pose estimation for overhead feedback. Cropping the detection ROI to 300×300 shrank compute by 95.7%, letting PID loops run fast enough to hold course during Inter IIT drone swarm trials.
-            </p>
-            <ul>
-              <li>
-                Built a real-time control stack combining teleop, overhead vision pose estimation, and PID stabilization.
-              </li>
-              <li>
-                Optimized the vision loop to keep compute bounded and latency stable during flight.
-              </li>
-            </ul>
+          <h3>PID Control of Drone with Overhead Vision</h3>
+          <p class="meta">Robotics club · Real-time control</p>
+          <p>
+          Authored a Python SDK around the Pluto drone’s UDP protocol (ARM/BOXARM/SET_ATTITUDE) with interchangeable Xbox/keyboard teleop, then layered calibrated ArUco pose estimation for overhead feedback. Cropping the detection ROI to 300×300 shrank compute by 95.7%, letting PID loops run fast enough to hold course during Inter IIT drone swarm trials.
+          </p>
+          <ul>
+          <li>
+          Built a real-time control stack combining teleop, overhead vision pose estimation, and PID stabilization.
+          </li>
+          <li>
+          Optimized the vision loop to keep compute bounded and latency stable during flight.
+          </li>
+          </ul>
           </article>
         </div>
       </section>
